@@ -55,7 +55,7 @@ The application was built with gradio. It offers back-end and front-end support 
 LangChain made this project possible. It offers a rich set of tools for working with LLMs, including template for prompts, vector databases, and more.
 
 ## Licence
-GNU General Public License v2.0
+GNU General Public License v3.0
 
 ## Disclaimer
 This application relies on third-party libraries and resources. Consequently, its utilization is subject to specific terms of use, conditions, and licenses that pertain to these external libraries and resources.
