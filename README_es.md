@@ -29,7 +29,7 @@ export HF_PW_1=your_HuggingChat_password
 
 ```bash
 git clone https://github.com/a-jimenezc/topics_from_pdf.git
-cd pdf_chat
+cd  topics_from_pdf
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
