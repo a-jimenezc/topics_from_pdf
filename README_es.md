@@ -23,13 +23,19 @@ Fue implementada con Docker y utilizando el servicio *serverless* de Google, *Cl
 Para ejecutar la aplicación web localmente, instalar Python 3.10 y Git. Luego, ejecutar en la terminal:
 
 ```bash
-git clone https://github.com/a-jimenezc/pdf_chat
-cd pdf_chat
-pip install -r requirements.txt
 export HF_EMAIL_1=your.registered.email@mail.com
 export HF_PW_1=your_HuggingChat_password
+```
+
+```bash
+git clone https://github.com/a-jimenezc/topics_from_pdf.git
+cd pdf_chat
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 python app.py
 ```
+
 **HF_EMAIL_1** y **HF_PW_1** son las credenciales para una cuenta de HuggingChat. Es necesario registrarse para obtener una cuenta.
 
 ## Descripción del Proyecto

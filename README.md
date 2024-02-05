@@ -23,11 +23,16 @@ It was deployed with Docker and using the serverless service from Google, *Cloud
 To run the web app on a local machine running Linux, install python 3.10 and git. Then, run on the terminal:
 
 ```bash
-git clone https://github.com/a-jimenezc/pdf_chat
-cd pdf_chat
-pip install -r requirements.txt
 export HF_EMAIL_1=your.registered.email@mail.com
 export HF_PW_1=your_HuggingChat_password
+```
+
+```bash
+git clone https://github.com/a-jimenezc/topics_from_pdf.git
+cd pdf_chat
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 python app.py
 ```
 
