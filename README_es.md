@@ -49,7 +49,7 @@ La aplicación fue construida con Gradio. Ofrece soporte tanto para el backend c
 LangChain hizo posible este proyecto. Ofrece un conjunto completo de herramientas para trabajar con LLMs, incluidas plantillas para *prompts*, bases de datos de vectores y más.
 
 ## Licencia
-GNU General Public License v2.0
+GNU General Public License v3.0
 
 ## Descargo de Responsabilidad
 Esta aplicación se basa en bibliotecas y recursos de terceros. En consecuencia, su utilización está sujeta a términos de uso, condiciones y licencias específicas que se aplican a estas bibliotecas y recursos externos.
