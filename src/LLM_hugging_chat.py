@@ -5,7 +5,7 @@ from langchain_core.language_models.llms import LLM
 from hugchat import hugchat
 from hugchat.login import Login
 
-class LLM_hugging_chat(LLM):
+class LlmHuggingChat(LLM):
     """
     This class represents a custom LLM based on the Hugging Chat API.
     Attributes:

@@ -2,7 +2,7 @@
 import os
 from dotenv import load_dotenv
 import gradio as gr
-from src.LLM_hugging_chat import LLM_hugging_chat
+from src.llm_hugging_chat import LlmHuggingChat
 from src.topics_from_pdf import topics_from_pdf
 from pages.about import intro_html, author_html
 
@@ -28,7 +28,7 @@ def summary(file, lang):
     """
     Extracts the PDF topics
     """
-    llm = LLM_hugging_chat(
+    llm = LlmHuggingChat(
         n=2000,
         hugging_face_account=email_1,
         hugging_face_psw=psw_1
