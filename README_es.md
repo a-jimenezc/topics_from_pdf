@@ -15,7 +15,7 @@ Este repositorio contiene el código fuente para la aplicación web: Topics from
 ### Aplicación Web
 La forma más sencilla de probar la aplicación es seguir el enlace:
 
-[https://topicspdf.dsapp.me/](https://topicspdf.dsapp.me/)
+[https://topicspdf.dsapp.me/](https://topicspdf.dsapp.me)
 
 Fue implementada con Docker y utilizando el servicio *serverless* de Google, *Cloud Run*.
 
@@ -45,8 +45,8 @@ El objetivo principal de este proyecto es permitir la extracción de los temas e
 ### Resumen con LDA
 Proporcionar un resumen conciso del documento ayuda al usuario a comprender su contenido, facilitando el inicio de la conversación. Los Grandes Modelos de Lenguaje (LLMs) pueden resumir documentos documentos, pero el costo computacional para documentos extensos hace que usarlos directamente para esta tarea sea prohibitivamente caro. Por lo tanto, se efectuó preprocesamiento. **LDA** (Latent Dirichlet Allocation) es un gran algoritmo para el procesamiento de documentos. Produce una lista de palabras por tema, y permite seleccionar el número de temas y palabras por tema. Luego, las listas de palabras resultantes podrían ingresarse a un LLM, pidiéndole que articule una descripción utilizando lenguaje natural. Este enfoque ayuda a extraer las ideas principales del documento. En este caso, el resumen se presenta en un formato de tabla de contenido.
 
-#### HugChat, API de Chat de Hugging no oficial
-La biblioteca [hugchat](https://github.com/Soulter/hugging-chat-api) creada por Soulter ofrece una API no oficial para [Hugging Chat](https://huggingface.co/chat/). Actualmente, el modelo usado por HuggingChat es **mistralai/Mixtral-8x7B-Instruct-v0.1**, pero esto puede cambiar con el tiempo. Por lo tanto, se aplican **los términos de uso, limitaciones, advertencias y licencias** estipulados por HuggingChat y el modelo que utiliza al usar esa aplicación web. Por favor, visita la documentación oficial para obtener más información.
+### HugChat, API de Chat de Hugging no oficial
+La biblioteca [hugchat](https://github.com/Soulter/hugging-chat-api) creada por Soulter ofrece una API no oficial para [HuggingChat](https://huggingface.co/chat/). Actualmente, el modelo usado por HuggingChat es **mistralai/Mixtral-8x7B-Instruct-v0.1**, pero esto puede cambiar con el tiempo. Por lo tanto, se aplican **los términos de uso, limitaciones, advertencias y licencias** estipulados por HuggingChat y el modelo que utiliza al usar esa aplicación web. Por favor, visita la documentación oficial para obtener más información.
 
 ### Gradio
 La aplicación fue construida con Gradio. Ofrece soporte tanto para el backend como para el frontend de aplicaciones de aprendizaje automático. Además, tienen un excelente soporte para modelos de lenguaje, incluido un objeto de chat muy útil.

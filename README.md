@@ -15,7 +15,7 @@ This repository contains the source code for the web application: Topics from PD
 ### Web App
 The simplest way to try the app is to follow the link:
 
-[https://topicspdf.dsapp.me/](https://topicspdf.dsapp.me/)
+[https://topicspdf.dsapp.me](https://topicspdf.dsapp.me)
 
 It was deployed with Docker and using the serverless service from Google, *Cloud Run*.
 
@@ -45,8 +45,8 @@ The main goal of this project is to enable the extraction of the main topics and
 ### Summarization with LDA
 LLMs can summarize documents, but the computational cost for large documents makes using them for this task prohibitively expensive. So, some preprossessing was needed. **LDA** (Latent Dirichlet Allocation) is a great algorithm for document processing. It produces a list of words per topic; it also allows the selection of the number of topics and words per topic. Then, the output word lists could be feeded into an LLM and ask, prompting it to articulate a description using natural language. This approach aids in extracting the core ideas from the document. In this case, the "summary" is given in a table-of-content format.
 
-#### HugChat, Unofficial Hugging Chat API
-The library [hugchat](https://github.com/Soulter/hugging-chat-api) by Soulter offers an unofficial API for [Hugging Chat](https://huggingface.co/chat/). Currently, the model powering Hugging Chat is **mistralai/Mixtral-8x7B-Instruct-v0.1**, but this can change over time. So, **the terms of use, limitations, caveats, and licencing** stipulated by HuggingChat and the model it is using apply when using this web application. Please, visit the oficial documentation for more information.
+### HugChat, Unofficial Hugging Chat API
+The library [hugchat](https://github.com/Soulter/hugging-chat-api) by Soulter offers an unofficial API for [HuggingChat](https://huggingface.co/chat/). Currently, the model powering HuggingChat is **mistralai/Mixtral-8x7B-Instruct-v0.1**, but this can change over time. So, **the terms of use, limitations, caveats, and licencing** stipulated by HuggingChat and the model it is using apply when using this web application. Please, visit the oficial documentation for more information.
 
 ### Gradio
 The application was built with gradio. It offers back-end and front-end support for machine learning applications. Also, they have an exelent support for language models.
