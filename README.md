@@ -17,7 +17,7 @@ The simplest way to try the app is to follow the link:
 
 [https://topicspdf.dsapp.me](https://topicspdf.dsapp.me)
 
-It was deployed with Docker and using the serverless service from Google, *Cloud Run*.
+It was deployed with Docker and using the serverless service from Google, **Cloud Run**.
 
 ### Local installation
 To run the web app on a local machine running Linux, install python 3.10 and git. Then, run on the terminal:
